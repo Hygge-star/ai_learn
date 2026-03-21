@@ -1,0 +1,202 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "我体重170厘米，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的信息“身高170厘米”，但未说明体重，参考《尺码推荐.txt》中的标准：\n\n- 身高165–175cm，体重115–135斤，建议尺码L  \n- 身高170–178cm，体重130–150斤，建议尺码XL  \n\n由于您的身高为170cm，落在上述两个区间重叠范围内，请补充您的体重（单位：斤），以便更准确推荐尺码。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我体重52kg，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "您的身高为170厘米，体重52公斤（即104斤）。\n\n根据《尺码推荐.txt》中的标准：\n\n- 身高160–170cm，体重90–115斤，建议尺码 **M**\n\n因此，推荐您选择 **M 码**。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体重100斤，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的体重 **100斤**，但未说明身高，参考《尺码推荐.txt》中的标准，需结合身高与体重综合判断。\n\n不过，100斤（即50kg）落在以下两个常见区间内：\n\n- 若身高在 **160–170cm** 之间（对应体重90–115斤），建议尺码 **M**  \n- 若身高在 **155–165cm** 之间（对应体重75–95斤），则100斤略超上限，但若体型匀称，仍可考虑 **S 或 M**\n\n**建议**：若您身高 ≥160cm，推荐 **M 码**；若身高 ≤160cm 且体型偏瘦，可选 **S 码**。  \n如需更精准推荐，请补充您的身高。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体重100斤，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的体重 **100斤**，参考《尺码推荐.txt》中的标准，需结合身高进行判断。由于您未提供身高，以下是基于常见情况的推荐：\n\n- 若您的身高在 **160–170cm** 之间（对应体重90–115斤），建议选择 **M 码**。\n- 若身高在 **155–165cm** 之间（对应体重75–95斤），100斤略高于该范围上限，但若体型匀称或偏瘦，可考虑 **S 码** 或 **M 码**。\n\n**综合建议**：  \n如您身高 ≥160cm，推荐 **M 码**；如身高 ≤160cm 且较瘦，可选 **S 码**。  \n为获得更准确推荐，请补充您的身高信息。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "体重100斤，尺寸推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据《尺码推荐.txt》中的标准，体重100斤（即50公斤）对应的尺码需结合身高判断：\n\n- 若身高在 **160–170cm** 范围内（对应体重90–115斤），推荐 **M 码**。  \n- 若身高在 **155–165cm** 范围内（对应体重75–95斤），100斤略超上限，但若体型匀称或偏瘦，可考虑 **S 码**。\n\n**建议**：  \n如无特殊体型情况，且身高 ≥160cm，优先选 **M 码**；若身高 ≤160cm 且较瘦，可选 **S 码**。  \n为精准推荐，请提供具体身高。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "身高170",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的身高 **170cm**，参考《尺码推荐.txt》中的标准：\n\n- 若体重在 **90–115斤**，建议尺码 **M**  \n- 若体重在 **115–135斤**，建议尺码 **L**  \n- 若体重在 **130–150斤**，建议尺码 **XL**\n\n由于您未提供体重，请补充体重（单位：斤），以便给出准确尺码推荐。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "体重100斤，尺寸推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的信息：**体重100斤**，并结合此前对话中提到的**身高170cm**，参考《尺码推荐.txt》中的标准：\n\n- 身高 **160–170cm**，体重 **90–115斤**，建议尺码 **M**\n\n您的数据（170cm / 100斤）正好落在该区间内。\n\n✅ **推荐尺码：M**",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "夏天颜色推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据《颜色选择.txt》中关于**季节与服装颜色选择**的建议，**夏季**推荐如下颜色：\n\n- **冷色调和浅色系**：如白色、天蓝色、浅绿色，清爽降温，视觉上更轻盈。\n- **避免深色系**：因吸热且易显沉闷。\n\n此外，结合**场合**可适当调整：\n- **日常通勤**：可选雾霾蓝、浅紫等低饱和度亮色作为点缀。\n- **休闲出游**：适合高饱和度的清新色（如明黄、湖蓝）或蓝+白等撞色搭配。\n\n综上，**夏季首选白色、天蓝、浅绿等清爽浅色或冷色调**。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    }
+]
