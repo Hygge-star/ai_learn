@@ -11,7 +11,7 @@ uvicorn main:app --reload
 http://127.0.0:18000/docs
 
 代码
-'''python
+```python
 from fastapi import FastAPI
 #创建FastAPI实例
 app = FastAPI()
@@ -23,4 +23,4 @@ async def root(): #异步函数
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
-'''
+```
