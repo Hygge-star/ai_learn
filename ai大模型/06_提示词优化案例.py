@@ -14,7 +14,7 @@ from pyexpat.errors import messages
 # api_key 是访问阿里云大模型服务的凭证
 client = OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-80fc678a86a24986b6be4b6749bc973e"
+    api_key=""
 )
 
 # 定义消息列表，用于与大模型进行交互
