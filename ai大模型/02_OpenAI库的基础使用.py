@@ -8,7 +8,7 @@ from pyexpat.errors import messages
 #1.获取client对象，OpenAI类对象
 client=OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    api_key="sk-80fc678a86a24986b6be4b6749bc973e"
+    api_key=""
 )
 #2.调用模型
 response=client.chat.completions.create(
