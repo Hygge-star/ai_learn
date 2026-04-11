@@ -3,10 +3,10 @@ import os
 
 client = OpenAI(
     # 如果没有配置环境变量，请用阿里云百炼API Key替换：api_key="sk-xxx"
-    api_key="sk-80fc678a86a24986b6be4b6749bc973e",
+    api_key="",
     base_url="https://localhost:11434/v1",
 )
-
+ 
 messages = [{"role": "user", "content": "你是谁"}]
 completion = client.chat.completions.create(
     model="qwen3:4b",  # 您可以按需更换为其它深度思考模型
