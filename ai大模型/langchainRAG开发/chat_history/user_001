@@ -1,0 +1,102 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "小明有两个猫",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "好的！小明有两个猫。请问你想了解关于这两只猫的什么信息呢？比如它们的名字、颜色、性格，还是其他方面？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "小明有两个猫",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小明有两个猫。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "小刚有一只狗",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小刚有一只狗。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "总共有几个宠物",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "小明有2只猫，小刚有1只狗，所以总共有：\n\n2 + 1 = **3只宠物**。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    }
+]
